@@ -1,7 +1,7 @@
 {
   "name": "konnect",
   "version": "1.0.0",
-  "description": "Quickly connect to any server through ssh",
+  "description": "Quick way to run frequent and long commands",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
@@ -21,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/mithralaya/Konnect/issues"
   },
-  "homepage": "https://github.com/mithralaya/Konnect#readme"
+  "homepage": "https://github.com/mithralaya/Konnect#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jscs": "^2.8.0",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.4.5"
+  }
 }
