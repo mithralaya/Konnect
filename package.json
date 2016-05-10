@@ -1,0 +1,25 @@
+{
+  "name": "konnect",
+  "version": "1.0.0",
+  "description": "Quickly connect to any server through ssh",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mithralaya/Konnect.git"
+  },
+  "keywords": [
+    "ssh",
+    "aws",
+    "connect",
+    "easy"
+  ],
+  "author": "Karthik Vasudevan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mithralaya/Konnect/issues"
+  },
+  "homepage": "https://github.com/mithralaya/Konnect#readme"
+}
