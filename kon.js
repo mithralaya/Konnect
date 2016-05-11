@@ -7,6 +7,7 @@ var list = require('./command/list');
 var add = require('./command/add');
 var rename = require('./command/rename');
 var del = require('./command/delete');
+var run = require('./command/run');
 
 program
   .version('1.0.0')
@@ -16,7 +17,7 @@ program
   .command('*')
   .description('kon <name>')
   .action(function(env) {
-    console.log('running...', env);
+    run.run(env);
   });
 program
   .command('list')

@@ -25,7 +25,8 @@
   "dependencies": {
     "TFWhatIs": "^1.0.16",
     "commander": "^2.9.0",
-    "jsonfile": "^2.3.0"
+    "jsonfile": "^2.3.0",
+    "shelljs": "^0.7.0"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
