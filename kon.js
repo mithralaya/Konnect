@@ -8,6 +8,7 @@ var add = require('./command/add');
 var rename = require('./command/rename');
 var del = require('./command/delete');
 var run = require('./command/run');
+var search = require('./command/search');
 
 program
   .version('1.0.0')
@@ -24,6 +25,12 @@ program
   .description('list all commands')
   .action(function(env) {
     list.list();
+  });
+program
+  .command('search <query>')
+  .description('search by a query string')
+  .action(function(env) {
+    search.search(program.args[0]);
   });
 program
   .command('add <name> <command> [keywords...]')
