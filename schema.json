@@ -1,1 +1,1 @@
-{"BD":{"name":"BD","command":"ssh -tti /Users/karthikvasudevan/Downloads/LaughingDonkey.pem ubuntu@54.194.11.61","keywords":["test","test","test"]}}
+{"BD":{"name":"BD","command":"shh -i /Users/karthikvasudevan/Downloads/LaughingDonkey.pem ubuntu@54.194.11.61","keywords":["shh","smiling","donkey","laughing","aws"]}}

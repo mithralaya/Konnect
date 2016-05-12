@@ -36,7 +36,6 @@ program
   .command('add <name> <command> [keywords...]')
   .description('add a command')
   .action(function(env) {
-    console.log(program.args[2]);
     add.add(program.args[0], program.args[1], program.args[2]);
   });
 program

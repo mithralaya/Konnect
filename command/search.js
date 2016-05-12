@@ -8,8 +8,8 @@ exports.search = function(query) {
     console.log("\n\t\tName\t\t\t\tCommand\t\t\t\t\t\t\t\t\t\t\t\tKeywords\n");
     W.for(items, function(key, item, items){
       if (item.name.indexOf(query) >=0 ||
-          item.name.indexOf(query) >=0 ||
-          item.name.indexOf(query) >=0 ) {
+          item.command.indexOf(query) >=0 ||
+          item.keywords.indexOf(query) >=0 ) {
             console.log("\t\t"+item.name+"\t\t\t\t"+item.command+"\t\t\t"+item.keywords);
       }
     });
