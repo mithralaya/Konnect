@@ -12,7 +12,6 @@ File.prototype.read = function(jsonFile) {
 File.prototype.write = function(json, cb) {
   jsonfile.writeFile('schema.json', json, function (err) {
     if (err) {
-      console.error(err);
       cb(false);
     } else {
       cb(true);
