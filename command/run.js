@@ -1,13 +1,15 @@
 "use strict";
 var file = require("../helper/file");
 var ncp = require("copy-paste");
+var shell = require("shelljs");
 
 exports.run = function(name) {
   var items = file.read('../schema.json');
   if(items[name]) {
-    ncp.copy(items[name].command, function () {
+    shell.exec(items[name].command).stdout();
+    /*ncp.copy(items[name].command, function () {
       console.log("Command copied. Paste it and run");
-    });
+    });*/
   } else {
     console.error("\nCommand doesn't exist\n");
   }
