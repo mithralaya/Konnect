@@ -1,7 +1,7 @@
 {
   "name": "konnect",
   "version": "1.0.4",
-  "description": "Quick way to run frequent and long commands",
+  "description": "Quick way to run frequent and long linux or OSX commands.",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
