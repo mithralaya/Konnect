@@ -6,12 +6,12 @@ Quick way to run frequent and long linux or OSX commands.
 **Solution:** Store them under a simple name and run them frequently using **Konnect**.  
 
 ##Install
-```
+```bash
 $ npm install konnect -g
 ```
 
 ##Options
-```
+```bash
   Usage: kon <name>
 
 
@@ -36,14 +36,14 @@ $ npm install konnect -g
 ##Usage
 
 ###Run
-```
+```bash
 $ kon BD
 ```
 
 ###Add
 Add a command
 
-```
+```bash
 $ kon add BD "ssh -tti /path/to/key.pem ubuntu@xx.xx.xx.xx" shh api server aws
 
 Result:
@@ -53,7 +53,7 @@ Command successfully added
 ###List
 List all names, commands and keywords
 
-```
+```bash
 $ kon list
 
 Result:
@@ -68,7 +68,7 @@ LD				ssh -tti /path/to/key.pem ubuntu@xx.xx.xx.xx			shh,admin,server,aws
 ###Search
 Search with a word
 
-```
+```bash
 $ kon search api
 
 Result:
@@ -81,7 +81,7 @@ BD				ssh -tti /path/to/key.pem ubuntu@xx.xx.xx.xx			shh,api,server,aws
 
 ###Rename
 
-```
+```bash
 $ kon rename BD GB
 
 Result:
@@ -93,7 +93,7 @@ BD successfully renamed to GB
 ###Change
 Change values by name
 
-```
+```bash
 $ kon change BD "ssh -tti /path/to/key.pem ubuntu@xx.xx.xx.xx" shh api server aws
 
 Result:
@@ -105,7 +105,7 @@ Command successfully added
 ###Delete
 Delete an item by name
 
-```
+```bash
 $ kon delete BD
 
 Result:
