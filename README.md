@@ -115,3 +115,8 @@ Result:
 BD successfully deleted
 
 ```
+
+
+##LICENSE
+
+The MIT License (MIT)
