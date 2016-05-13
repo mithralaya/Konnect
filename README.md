@@ -106,7 +106,7 @@ Command successfully added
 Delete an item by name
 
 ```
-$kon delete BD
+$ kon delete BD
 
 Result:
 
