@@ -46,10 +46,10 @@ program
     rename.rename(program.args[0], program.args[1]);
   });
 program
-  .command('recommand <name> <newCommand>')
-  .description('recommand by name')
+  .command('change <name> <newCommand> [keywords...]')
+  .description('change values by name')
   .action(function(env) {
-    add.add(program.args[0], program.args[1]);
+    add.add(program.args[0], program.args[1], program.args[2]);
   });
 program
   .command('delete <name>')

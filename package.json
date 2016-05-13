@@ -1,6 +1,6 @@
 {
   "name": "konnect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quick way to run frequent and long commands",
   "main": "index.js",
   "scripts": {
