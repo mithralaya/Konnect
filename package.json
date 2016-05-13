@@ -1,6 +1,6 @@
 {
   "name": "konnect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quick way to run frequent and long commands",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,10 @@
   ],
   "author": "Karthik Vasudevan",
   "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "kon": "kon.js"
+  },
   "bugs": {
     "url": "https://github.com/mithralaya/Konnect/issues"
   },
