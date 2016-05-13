@@ -12,18 +12,19 @@ $ npm install konnect -g
 
 ##Options
 ```bash
+
   Usage: kon <name>
 
 
   Commands:
 
-    *                                   kon <name>
-    add <name> <command> [keywords...]  add a command
-    list                                list all commands
-    search <query>                      search by a query string
-    rename <oldName> <newName>          rename a command name
-    change <name> <newCommand> [keywords...]      change values by name
-    delete <name>                       delete by name
+    *                                         kon <name>
+    list                                      list all commands
+    search <query>                            search by a query string
+    add <name> <command> [keywords...]        add a command
+    rename <oldName> <newName>                rename a command name
+    change <name> <newCommand> [keywords...]  change values by name
+    delete <name>                             delete by name
 
   Quick way to run frequent and long commands
 
@@ -31,6 +32,7 @@ $ npm install konnect -g
 
     -h, --help     output usage information
     -V, --version  output the version number
+
 ```
 
 ##Usage
