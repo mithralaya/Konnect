@@ -1,7 +1,7 @@
 # Konnect
-Quick way to run frequent and long commands
+Quick way to run frequent and long linux or OSX commands
 
-**Problem:** Things like SSH may have domain name or IP address with location to key information are difficult to remember and long to type.
+**Problem:** Things like SSH may have domain name or IP address with location to key, are difficult to remember and long to type.
 
 **Solution:** Store them under a simple name and run them frequently using **Konnect**.  
 
